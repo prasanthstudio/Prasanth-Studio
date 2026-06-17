@@ -1,0 +1,7 @@
+services:
+  prasanth-studio:
+    build: .
+    container_name: prasanth-studio
+    ports:
+      - "8080:80"
+    restart: unless-stopped
