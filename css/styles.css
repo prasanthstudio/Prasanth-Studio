@@ -105,7 +105,7 @@ img {
   text-align: center;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url("https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600&q=80") center/cover no-repeat;
+    url("../images/hero-photo.jpeg") center/cover no-repeat;
   padding-top: 64px;
 }
 
