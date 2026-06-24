@@ -5,11 +5,9 @@
 }
 
 :root {
-  --bg: #0f0f0f;
-  --bg-light: #1a1a1a;
-  --text: #f0f0f0;
-  --muted: #aaaaaa;
-  --accent: #c9a962;
+--bg: #090909;
+--bg-light: #141414;
+--accent: #d4af37;
   --max-width: 1100px;
 }
 
@@ -58,9 +56,8 @@ img {
 }
 
 .logo {
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-size: 3rem !important;
+  color: red !important;
 }
 
 .nav-links {
@@ -227,6 +224,13 @@ img {
 .gallery-item:hover img {
   transform: scale(1.05);
 }
+.gallery-item img{
+  transition: all 0.6s ease;
+}
+
+.gallery-item:hover img{
+  transform: scale(1.08);
+}
 
 /* Contact */
 .contact-grid {
@@ -335,6 +339,5 @@ img {
 }
 .hero {
   min-height: 100vh;
-  border: 10px solid red;
 }
 background: red;
